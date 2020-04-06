@@ -2,3 +2,18 @@
     text-align: center;
     height: 100vh;
 }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2vmin;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-size: 5vmin;
+    color: black;
+    opacity: 0.85;
+}

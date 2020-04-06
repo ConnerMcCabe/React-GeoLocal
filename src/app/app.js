@@ -10,7 +10,7 @@ class App extends Component {
         return (
             <div className="App">
                 <Map />
-                
+                <header className="header">Test App</header>
             </div>
         )
     }

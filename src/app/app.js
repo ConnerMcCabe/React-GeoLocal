@@ -6,16 +6,21 @@ import { getCurrentLatLng } from '../services/geolocation';
 
 class App extends Component {
 
+    state = {
+        lat: null,
+        lng: null
+    }
+
     async componentDidMount() {
         const {lat, lng} = await getCurrentLatLng();
-        console.log(lat, lng);
+        this.setState({lat,lng});
     }
 
     render() {
         return (
             <div className="App">
-                <Map />
-                <header className="header">Test App</header>
+                <Map lat={this.state.lat} lng={this.state.lng}/>
+                <header className="header">ʕง•ᴥ•ʔง</header>
             </div>
         )
     }

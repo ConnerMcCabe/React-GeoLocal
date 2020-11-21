@@ -9,11 +9,11 @@
     left: 0;
     width: 100%;
     padding: 2vmin;
-    background-color: var(--primary-color);
+    background-color: #23a9f2;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 7vmin;
-    color: var(--text-color);
+    color: #f7981cec;
     opacity: 0.85;
 }
